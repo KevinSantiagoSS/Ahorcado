@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F3120F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="258.0" layoutY="58.0" prefHeight="83.0" prefWidth="283.0" text="BIENVENIDO" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <BorderPane prefHeight="400.0" prefWidth="401.0" style="-fx-background-color: #001199;" BorderPane.alignment="CENTER">
+         <right>
+            <TextArea prefHeight="200.0" prefWidth="200.0" promptText="Compra nuestras frutas y verduras frescas. Encuéntralas en D1 junto a todo tu mercado. Frescura y variedad en frutas y verduras para tus comidas. Envíos a Todo el País. Compra 100% Segura. Recibe a Domicilio. Diferentes Medios de Pago." BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </left>
+   <center>
+      <ImageView fitHeight="270.0" fitWidth="363.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../../Downloads/D1%20-%202.jpeg" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>
